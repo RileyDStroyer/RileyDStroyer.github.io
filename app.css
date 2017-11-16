@@ -1,0 +1,125 @@
+body {
+ background-color: #99ffb5;
+ margin-top: 0px;
+ margin-right: 0px;
+ margin-bottom: 0px;
+ margin-left: 0px;
+ 
+}
+header {
+    background: url("images/backcround.jpg");
+    Text-align: center;
+	background-size: cover;
+    padding:20px 0px 0px 0px;
+    height: 400px;
+}
+table, th, td {
+    
+    
+    text-align: center;
+    
+}
+table {
+    
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    border: 4px solid black;
+}
+th {
+    padding: 15px;
+    border: 2px solid black;
+}
+td {
+    padding: 15px;
+    border: 2px solid black;
+}
+iframe {
+    border: 5px solid black;
+}
+.cube {
+    border: 0px solid black;
+}
+thead {
+    background: #6df7ff;
+}
+tbody {
+    background: #96ffe3;
+}
+h1 {
+    font-size: 100px;
+    color: white;
+    font-family: 'Righteous', cursive;
+}
+h2 {
+    font-size: 50px;
+    font-family: 'Righteous', cursive;
+    text-align: center;
+}
+img {
+    border-radius: 10%;
+    border: 7px solid black;
+}
+p {
+    text-align: left;
+}
+.tablet {
+    max-width: 1250px;
+}
+article {
+    font-size: 20px;
+    font-family: 'Righteous', cursive;
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+}
+li {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+}
+.button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 24px;
+    border: 7px solid #000000;
+    border-radius: 100px;
+    background: #96f5bc;
+    background: -webkit-gradient(linear, left top, left bottom, from(#96f5bc), to(#9e5eff));
+    background: -moz-linear-gradient(top, #96f5bc, #9e5eff);
+    background: linear-gradient(to bottom, #96f5bc, #9e5eff);
+    -webkit-box-shadow: #575757 -5px -2px 0px 0px;
+    -moz-box-shadow: #575757 -5px -2px 0px 0px;
+    box-shadow: #575757 -5px -2px 0px 0px;
+    text-shadow: #000000 -1px -2px 1px;
+    font-family: 'Righteous', cursive;
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:hover,
+.button:focus {
+    background: #b4ffe2;
+    background: -webkit-gradient(linear, left top, left bottom, from(#b4ffe2), to(#be71ff));
+    background: -moz-linear-gradient(top, #b4ffe2, #be71ff);
+    background: linear-gradient(to bottom, #b4ffe2, #be71ff);
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:active {
+    background: #5a9371;
+    background: -webkit-gradient(linear, left top, left bottom, from(#5a9371), to(#9e5eff));
+    background: -moz-linear-gradient(top, #5a9371, #9e5eff);
+    background: linear-gradient(to bottom, #5a9371, #9e5eff);
+}
+@media (max-width: 1000px) {
+    header {
+        height: 500px;
+    }
+}
+@media (max-width: 550px) {
+    header {
+        height: 700px;
+    }
+    img {
+        width: 300px;
+    }
+}
